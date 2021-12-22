@@ -1,0 +1,50 @@
+.page10-content {
+  height: 100%;
+  width: 100%;
+}
+
+.page-title {
+  font-size: 30px;
+}
+
+.content-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.content-wrapper .text {
+  padding-left: 45px;
+  float: left;
+  width: 60%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-wrapper .text ul {
+  padding-left: 30px;
+}
+
+.content-wrapper .text li {
+  line-height: 2.5;
+}
+
+.content-wrapper .image {
+  float: left;
+  width: 30%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-wrapper .image img {
+  width: 200px;
+}
+
+.ad-name {
+  margin-bottom: 25px;
+  text-align: center;
+}

@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  background: red;
+  height: 10vh;
+}
+
+.content {
+  background: orange;
+  height: 80vh;
+}
+
+.content .side-bar {
+  background: antiquewhite;
+  width: 20vw;
+  height: 100%;
+  float: left;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.content .side-bar .shortcut-box {
+  height: 150px;
+  width: 100%;
+  background: white;
+  margin-bottom: 20px;
+  border: #999 solid 1px;
+  position: relative;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.content .side-bar .shortcut-box:not(.selected):hover {
+  border: rgb(99, 99, 99) solid 3px;
+}
+
+.content .side-bar .shortcut-box:last-child {
+  margin-bottom: 0;
+}
+
+.content .side-bar .selected {
+  border: tomato solid 3px !important;
+}
+.content .side-bar .selected:hover {
+  border-width: 4px !important;
+}
+
+.content .side-bar .shortcut-box .page-number {
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  z-index: 1;
+  display: inline-block;
+  padding: 3px 8px;
+  background: white;
+  opacity: 0.6;
+}
+
+.content .side-bar .shortcut-box .screen-preview-img {
+  width: 100%;
+  height: 100%;
+}
+
+.content .screen {
+  background: antiquewhite;
+  width: 80vw;
+  height: 100%;
+  float: left;
+  padding: 20px 70px;
+}
+
+.content .screen .slide {
+  background: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+  border: #ccc solid 0.25px;
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+}
+
+.footer .button-group {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px;
+}
+
+.footer .button-group .util-btn {
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+  background: rgba(255, 166, 0, 0.459);
+  border: rgb(255, 115, 0) solid 2px;
+  margin-right: 10px;
+  color: black;
+}
+
+.footer .button-group .util-btn:last-child {
+  margin-right: 0;
+}
+
+.footer .button-group .next-btn {
+  text-align: center;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.footer .button-group .zoom-btn {
+  text-align: center;
+}
+
+.footer .button-group .back-btn {
+  text-align: center;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+.btn {
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.screen .slide {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+}
