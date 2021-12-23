@@ -83,6 +83,9 @@ body {
   width: 250px !important;
 }
 
-.page4-content .content-wrapper {
+.page4-content .content-wrapper,
+.page6-content .content-wrapper,
+.page8-content .content-wrapper,
+.page10-content .content-wrapper {
   height: 90% !important;
 }
