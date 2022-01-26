@@ -32,7 +32,7 @@
             />
           </a>
         </div>
-        <div class="shortcut-box selected">
+        <div class="shortcut-box selected" id="page-preview-3">
           <span class="page-number">3</span>
           <a href="page3.html">
             <img
@@ -143,3 +143,10 @@
     </div>
   </body>
 </html>
+
+<script src="./js/script.js"></script>
+
+<script>
+  startKeysListener(2);
+  scrollToForm("#page-preview-3");
+</script>

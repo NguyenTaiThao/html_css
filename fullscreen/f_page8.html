@@ -14,13 +14,13 @@
         <div class="slide">
           <div class="page8-content">
             <p class="page-title">広告が好きな理由</p>
-            <div class="content-wrapper">
+            <div class="content-wrapper hidden" id="item-1">
               <div class="text">
                 <ul>
-                  <li>
+                  <li class="hidden" id="item-2">
                     マーケティング手段がプロフェッショナルで面白いと思っている。
                   </li>
-                  <li>私も広告からの影響を受けた</li>
+                  <li class="hidden" id="item-3">私も広告からの影響を受けた</li>
                 </ul>
               </div>
               <div class="image">
@@ -42,3 +42,10 @@
     </div>
   </body>
 </html>
+
+<script src="../js/script.js"></script>
+
+<script>
+  const animationList = ["item-1", "item-2", "item-3"];
+  startKeysListener(7, true, animationList);
+</script>

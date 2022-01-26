@@ -13,7 +13,7 @@
     <div class="content">
       <div class="side-bar">
         <div class="shortcut-box selected">
-          <span class="page-number">1</span>
+          <span class="page-number" id="page-preview-1">1</span>
           <a href="index.html">
             <img
               src="./assets/page1.png"
@@ -145,3 +145,10 @@
     </div>
   </body>
 </html>
+
+<script src="./js/script.js"></script>
+
+<script>
+  startKeysListener(0);
+  scrollToForm("#page-preview-1");
+</script>

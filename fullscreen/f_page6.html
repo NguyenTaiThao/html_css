@@ -16,32 +16,44 @@
             <p class="page-title">好きな広告の説明</p>
             <div class="content-wrapper">
               <div class="text">
-                <b>Điện Máy Xanhスーパーは？</b>
-                <p>
-                  ベトナムの有名なスーパーです。売っているのは家電製品とテクノロジー製品だ。
-                </p>
+                <div class="hidden" id="item-2">
+                  <b>Điện Máy Xanhスーパーは？</b>
+                  <p>
+                    ベトナムの有名なスーパーです。売っているのは家電製品とテクノロジー製品だ。
+                  </p>
+                </div>
                 <br />
-                <b>有名になった理由</b>
-                <ul>
-                  <li>広告の画像は奇妙で、すごくて、物議を醸したこと。</li>
-                  <li>覚えやすいキャッチフレーズを繰り返して使用したこと。</li>
-                  <li>
-                    意見が分かれることを生かして、TVCの代わりにソーシャルネットワークに広告させたこと。
-                  </li>
-                </ul>
+                <div id="item-3" class="hidden">
+                  <b>有名になった理由</b>
+                  <ul>
+                    <li id="item-4" class="hidden">
+                      広告の画像は奇妙で、すごくて、物議を醸したこと。
+                    </li>
+                    <li id="item-5" class="hidden">
+                      覚えやすいキャッチフレーズを繰り返して使用したこと。
+                    </li>
+                    <li id="item-6" class="hidden">
+                      意見が分かれることを生かして、TVCの代わりにソーシャルネットワークに広告させたこと。
+                    </li>
+                  </ul>
+                </div>
                 <br />
-                <b>広告のリンク：</b
-                ><a href="https://www.youtube.com/watch?v=IvykdsPU_G0"
-                  >こちらです</a
-                >
+                <div id="item-7" class="hidden">
+                  <b>広告のリンク：</b
+                  ><a href="https://www.youtube.com/watch?v=IvykdsPU_G0"
+                    >こちらです</a
+                  >
+                </div>
                 <br />
-                <b>詳細のリンク：</b
-                ><a
-                  href="https://docs.google.com/document/d/1Jy0_DF1s58dHewrFIch4QVxvuFUPl90Bpa95v9bXrmQ/edit?usp=sharing"
-                  >こちらです</a
-                >
+                <div id="item-8" class="hidden">
+                  <b>詳細のリンク：</b
+                  ><a
+                    href="https://docs.google.com/document/d/1Jy0_DF1s58dHewrFIch4QVxvuFUPl90Bpa95v9bXrmQ/edit?usp=sharing"
+                    >こちらです</a
+                  >
+                </div>
               </div>
-              <div class="image">
+              <div class="image hidden" id="item-1">
                 <div class="ad-name">
                   <p>Điện Máy Xanhスーパー の広告</p>
                   <p>（ディエン・マイ・サイン）</p>
@@ -60,3 +72,19 @@
     </div>
   </body>
 </html>
+
+<script src="../js/script.js"></script>
+
+<script>
+  const animationList = [
+    "item-1",
+    "item-2",
+    "item-3",
+    "item-4",
+    "item-5",
+    "item-6",
+    "item-7",
+    "item-8",
+  ];
+  startKeysListener(5, true, animationList);
+</script>

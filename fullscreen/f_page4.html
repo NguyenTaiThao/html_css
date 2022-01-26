@@ -17,14 +17,28 @@
             <div class="content-wrapper">
               <div class="text">
                 <ul>
-                  <li><b>アイデア</b>：発表が理解やすいくなるため</li>
-                  <li><b>ツール</b>：HTML・CSSのみ</li>
-                  <li><b>ディプロイ</b>：GitHub</li>
+                  <li id="item-1" class="hidden">
+                    <b>アイデア</b>：発表が理解やすいくなるため
+                  </li>
+                  <li id="item-4" class="hidden">
+                    <b>ツール</b>：HTML・CSSのみ
+                  </li>
+                  <li id="item-5" class="hidden"><b>ディプロイ</b>：GitHub</li>
                 </ul>
               </div>
               <div class="image">
-                <img src="../assets/powerpoint.jpg" alt="powerpoint" />
-                <img src="../assets/ggslide.png" alt="powerpoint" />
+                <img
+                  id="item-2"
+                  class="hidden"
+                  src="../assets/powerpoint.jpg"
+                  alt="powerpoint"
+                />
+                <img
+                  id="item-3"
+                  class="hidden"
+                  src="../assets/ggslide.png"
+                  alt="powerpoint"
+                />
               </div>
             </div>
           </div>
@@ -38,3 +52,10 @@
     </div>
   </body>
 </html>
+
+<script src="../js/script.js"></script>
+
+<script>
+  const animationList = ["item-1", "item-2", "item-3", "item-4", "item-5"];
+  startKeysListener(3, true, animationList);
+</script>

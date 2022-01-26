@@ -89,3 +89,16 @@ body {
 .page10-content .content-wrapper {
   height: 90% !important;
 }
+
+.hidden {
+  opacity: 0 !important;
+}
+
+.show {
+  opacity: 1;
+}
+
+.smooth-transition {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+}
