@@ -1,31 +1,31 @@
 const SLIDE_SWITCHING_INTERVAL = 5000;
 
 const PAGE_URL = {
-  PAGE_1: "/index.html",
-  PAGE_2: "/page2.html",
-  PAGE_3: "/page3.html",
-  PAGE_4: "/page4.html",
-  PAGE_5: "/page5.html",
-  PAGE_6: "/page6.html",
-  PAGE_7: "/page7.html",
-  PAGE_8: "/page8.html",
-  PAGE_9: "/page9.html",
-  PAGE_10: "/page10.html",
-  PAGE_11: "/page11.html",
+  PAGE_1: "/html_css/index.html",
+  PAGE_2: "/html_css/page2.html",
+  PAGE_3: "/html_css/page3.html",
+  PAGE_4: "/html_css/page4.html",
+  PAGE_5: "/html_css/page5.html",
+  PAGE_6: "/html_css/page6.html",
+  PAGE_7: "/html_css/page7.html",
+  PAGE_8: "/html_css/page8.html",
+  PAGE_9: "/html_css/page9.html",
+  PAGE_10: "/html_css/page10.html",
+  PAGE_11: "/html_css/page11.html",
 };
 
 const PAGE_F_URL = {
-  PAGE_1: "/fullscreen/f_index.html",
-  PAGE_2: "/fullscreen/f_page2.html",
-  PAGE_3: "/fullscreen/f_page3.html",
-  PAGE_4: "/fullscreen/f_page4.html",
-  PAGE_5: "/fullscreen/f_page5.html",
-  PAGE_6: "/fullscreen/f_page6.html",
-  PAGE_7: "/fullscreen/f_page7.html",
-  PAGE_8: "/fullscreen/f_page8.html",
-  PAGE_9: "/fullscreen/f_page9.html",
-  PAGE_10: "/fullscreen/f_page10.html",
-  PAGE_11: "/fullscreen/f_page11.html",
+  PAGE_1: "/html_css/fullscreen/f_index.html",
+  PAGE_2: "/html_css/fullscreen/f_page2.html",
+  PAGE_3: "/html_css/fullscreen/f_page3.html",
+  PAGE_4: "/html_css/fullscreen/f_page4.html",
+  PAGE_5: "/html_css/fullscreen/f_page5.html",
+  PAGE_6: "/html_css/fullscreen/f_page6.html",
+  PAGE_7: "/html_css/fullscreen/f_page7.html",
+  PAGE_8: "/html_css/fullscreen/f_page8.html",
+  PAGE_9: "/html_css/fullscreen/f_page9.html",
+  PAGE_10: "/html_css/fullscreen/f_page10.html",
+  PAGE_11: "/html_css/fullscreen/f_page11.html",
 };
 
 const slideUrlMap = [
